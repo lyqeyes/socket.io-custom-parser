@@ -1,7 +1,7 @@
 {
     "name": "socket.io-custom-parser",
     "version": "0.1.0",
-    "description": "u can ",
+    "description": "Register the function that will be executed before encode message or after decode message",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
