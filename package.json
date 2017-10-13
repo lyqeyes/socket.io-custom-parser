@@ -1,0 +1,34 @@
+{
+    "name": "socket.io-custom-parser",
+    "version": "0.1.0",
+    "description": "u can ",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lyqeyes/socket.io-custom-parser.git"
+    },
+    "files": [
+        "index.js",
+        "binary.js",
+        "is-buffer.js"
+    ],
+    "keywords": [
+        "socket.io",
+        "custom-parser"
+    ],
+    "author": "lyq",
+    "license": "ISC",
+    "dependencies": {
+        "component-emitter": "1.2.1",
+        "debug": "~2.6.4",
+        "has-binary2": "~1.0.2",
+        "isarray": "2.0.1"
+    },
+    "bugs": {
+        "url": "https://github.com/lyqeyes/socket.io-custom-parser/issues"
+    },
+    "homepage": "https://github.com/lyqeyes/socket.io-custom-parser#readme"
+}
