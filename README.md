@@ -12,7 +12,7 @@ npm i socket.io-custom-parser
 
 #### 2 Usage
 
-**set parser**
+** 2.1 set parser**
 
 
 ```
@@ -35,7 +35,7 @@ parser.setBeforeEncode(beforeEncode);
 parser.setAfterDecode(afterDecode);
 
 ```
-**then in socket.io, use the defined parser above as the custom parser.  need  [socket.io custom-parser example?](https://github.com/socketio/socket.io/tree/master/examples/custom-parsers)**
+** 2.2 then in socket.io, use the defined parser above as the custom parser.  need  [socket.io custom-parser example?](https://github.com/socketio/socket.io/tree/master/examples/custom-parsers)**
 
 ```
 const io = require('socket.io')(httpServer, {
