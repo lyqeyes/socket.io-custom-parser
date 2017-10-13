@@ -1,6 +1,6 @@
 {
     "name": "socket.io-custom-parser",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Register the function that will be executed before encode message or after decode message",
     "main": "index.js",
     "scripts": {
