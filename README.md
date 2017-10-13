@@ -2,7 +2,7 @@
 One kind of socket.io custom parser.  Based on official socket.io-parser. 
 <br/> U can register the function that will be executed before encode message or after decode message
 <br/>
-So that u can have the union entrance if u want to monitor  every incoming or output  message. 
+So that u can have the union entrance if u want to monitor  every input or output  message. 
 
 #### 1 Install
 ```
@@ -11,7 +11,9 @@ npm i socket.io-custom-parser
 ```
 
 #### 2 Usage
-<h5>set parser ↓</h3>
+
+**set parser**
+
 
 ```
 let parser = require('socket.io-custom-parser');
@@ -33,7 +35,7 @@ parser.setBeforeEncode(beforeEncode);
 parser.setAfterDecode(afterDecode);
 
 ```
-<h5>then in socket.io, use the defined parser above as the custom parser.  need  [socket.io custom-parser example?](https://github.com/socketio/socket.io/tree/master/examples/custom-parsers) </h3>
+**then in socket.io, use the defined parser above as the custom parser.  need  [socket.io custom-parser example?](https://github.com/socketio/socket.io/tree/master/examples/custom-parsers)**
 
 ```
 const io = require('socket.io')(httpServer, {
